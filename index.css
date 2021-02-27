@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  font-style: bolder;
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, black, gray);
+  color: white;
+}
+
+.list {
+  width: 60%;
+  margin: auto;
+}
+
+.list .item_element {
+  margin: 10px;
+  background-color: black;
+}
+
+.list .item_element tr:nth-child(odd) {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: gray;
+}
+
+.list .item_element tr:nth-child(even) {
+  background-color: white;
+}
+
+.list .item_element tr > td {
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+body .page-nums {
+  width: 60%;
+  margin: auto;
+}
+
+body .page-nums button {
+  padding: 7px;
+  margin: 5px;
+  border: 1px solid rgb(65, 63, 63);
+  cursor: pointer;
+}
+
+body .page-nums button.active {
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+}
+
+body .page-nums button:hover {
+  background-color: lightblue;
+}
